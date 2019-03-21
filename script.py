@@ -7,5 +7,5 @@ import config
     You can change or add new links in the config file
 '''
 
-for key in config.backing_tracks:
-    wb.open(config.backing_tracks[key])
+for key in config.links:
+    wb.open(config.links[key])
